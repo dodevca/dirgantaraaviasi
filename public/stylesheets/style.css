@@ -1,0 +1,209 @@
+/* prymary : #673bb7
+secondary : #3b3180
+accent : #ddd8ff
+dark : #212529 */
+
+html,
+body {
+    font-family: "Inter", open-sans;
+    line-height: 1.5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+main {
+    margin-top: 90px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+p { 
+    margin-bottom: 1.5rem;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+section.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {
+    background-color: #ddd8ff;
+    color: #212529;
+}
+
+.section-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.bg-gradient {
+    background-color: #3b3180;
+    background: -webkit-linear-gradient(to top, #3b3180, #ddd8ff);
+    background-image: linear-gradient(to top, #3b3180, #ddd8ff);
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #3b3180 !important;
+    color: #fff;
+}
+
+.bg-tertiary {
+    background-color: #ddd8ff;
+}
+
+.bg-secondary .text-secondary {
+    color: #ddd8ff !important;
+}
+
+.text-primary {
+    color: #673bb7 !important;
+}
+
+.btn.btn-primary {
+    background-color: #673bb7;
+    border-color: #673bb7;
+}
+
+.btn.btn-outline-primary {
+    background-color: transparent;
+    border-color: #673bb7;
+    color: #673bb7;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+    background-color: #3b3180;
+    border-color: #3b3180;
+}
+
+.btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
+    background-color: #673bb7;
+    border-color: #673bb7;
+    color: #fff;
+}
+
+.btn.btn-secondary {
+    background-color: #ddd8ff;
+    border-color: #ddd8ff;
+    color: #673bb7;
+}
+
+.btn.btn-outline-secondary {
+    background-color: transparent;
+    border-color: #ddd8ff;
+    color: #ddd8ff;
+}
+
+.btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus {
+    background-color: #9180ff;
+    border-color: #9180ff;
+}
+
+.btn.btn-outline-secondary:hover, .btn.btn-outline-secondary:focus, .btn.btn-outline-secondary:active {
+    background-color: #ddd8ff;
+    border-color: #ddd8ff;
+    color: #673bb7;
+}
+
+.accordion-button {
+    outline: none !important;
+    box-shadow: none !important;    
+}
+
+.accordion-button:not(.collapsed) {
+    color: #3b3180;
+    background-color: #ddd8ff;
+    box-shadow: none;
+    outline: none !important;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+/* components */
+#jumbotron .jumbotron-title {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+#program .item {
+    width: 100%;
+    min-width: 200px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#program .item .item-content {
+    display: none;
+    visibility: hidden;
+}
+
+#program .item:hover .item-content, #program .item:active .item-content, #program .item:focus .item-content {
+    display: block;
+    visibility: visible;
+}
+
+#pelatihan .card-2 {
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 576px) {
+    #jumbotron .jumbotron-title {
+        font-size: 3.5rem;
+        line-height: 3.7rem;
+    }
+
+    #pelatihan .card-2 {
+        margin-top: 2rem;
+    }
+}
