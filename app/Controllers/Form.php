@@ -31,6 +31,6 @@ class Form extends BaseController
         // ];
 
         // return view('form' , $data);
-        return redirect()->to('https://docs.google.com/forms/d/e/1FAIpQLSeeefh-6obFh_L9ZKtD1lTU-nNpid2KgAsN-wvvAsizQCeu4w/viewform?usp=sf_link');
+        return redirect()->to('[google_form]');
     }
 }

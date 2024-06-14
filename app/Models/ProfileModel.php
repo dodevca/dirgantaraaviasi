@@ -10,16 +10,16 @@ class ProfileModel extends Model
         $data = [
             'contacts' => [
                 'phone'  => [
-                    'data'  => '+62 822 2647 4354',
-                    'url'   => 'https://api.whatsapp.com/send?phone=6282226474354'
+                    'data'  => '[your_number]',
+                    'url'   => 'https://api.whatsapp.com/send?phone=[your_number]'
                 ],
                 'email'  => [
-                    'data'  => 'info@dirgantaraaviasi.com',
-                    'url'   => 'mailto:info@dirgantaraaviasi.com'
+                    'data'  => 'info@example.com',
+                    'url'   => 'mailto:info@example.com'
                 ]
             ],
             'socials' => [
-                'instagram' => 'https://www.instagram.com/dirgantaraaviasi/',
+                'instagram' => 'https://www.instagram.com/example/',
                 'facebook'  => '#',
                 'twitter'   => '#'
             ]
